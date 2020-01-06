@@ -1,29 +1,29 @@
-#CodeMash 2020 Hadoop Essentials
+# CodeMash 2020 Hadoop Essentials
 
 This repository has the example code and hands-on project.
 
-##Examples
+## Examples
 There are examples for the four functions we talk about
 
-###Map
+### Map
 
 `src/main/java/com/g2o/cm2020/hadoop/examples/MapExample.java`
 
 Uses java.nio.streams.Stream class and Java functions to demonstrate how the map function works.
 
-###Flat Map
+### Flat Map
 
 `src/main/java/com/g2o/cm2020/hadoop/examples/FlatMapExample.java`
 
 Uses java.nio.streams.Stream class and Java functions to demonstrate how the flat map function works.
 
-###Reduce
+### Reduce
 
 `src/main/java/com/g2o/cm2020/hadoop/examples/ReduceExample.java`
 
 Uses java.nio.streams.Stream class and Java functions to demonstrate how Reduce works and how one must be careful to make reduce functions associative.
 
-###Reduce By Key
+### Reduce By Key
 
 `src/main/java/com/g2o/cm2020/hadoop/examples/ReduceByKeyExample.java`
 
@@ -34,7 +34,7 @@ To run that example, you must have Scala 2.12 installed.
 
 Designed to run on a Hadoop Sandbox.
 
-###Instructions for Hortonworks HDP Sandbox v3.0.1
+### Instructions for Hortonworks HDP Sandbox v3.0.1
 
  1. Download and install sandbox according to instructions https://www.cloudera.com/downloads/hortonworks-sandbox.html
  1. Start the cluster
@@ -113,6 +113,6 @@ Designed to run on a Hadoop Sandbox.
     
     `hadoop jar cm2020_h_e-1.0-SNAPSHOT.jar com.g2o.cm2020.hadoop.mapreduce.WordCount /tmp/magnacarta.txt /tmp/output.1`
        
-###Instructions for Cloudera CDH Sandbox
+### Instructions for Cloudera CDH Sandbox
 
 TBD
